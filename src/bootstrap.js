@@ -22,7 +22,7 @@ function main() {
       <BrowserRouter>
         <Switch>
           
-          <Route path='/' component={Home}></Route>
+          <Route path='/' exact component={Home}></Route>
           <Route path='/results' component={Results}></Route>
 
         </Switch>
